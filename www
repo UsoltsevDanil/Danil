@@ -1,0 +1,8 @@
+ for (int i = 0; i < N; i++)
+    {
+        mas[i] = (float) rand() / ((float) rand());
+        printf("mas[%d] = %.3f\n", i+1, mas[i]);
+        if(mas[i] > K) more++;
+        else if(mas[i] == K) equal++;
+        else less++;
+    }
